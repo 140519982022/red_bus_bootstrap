@@ -121,3 +121,8 @@ button:focus, button:active {
     border: none;
     box-shadow: none;
 }
+
+.slider-position{
+    position: relative;
+    top: -80px;
+}
