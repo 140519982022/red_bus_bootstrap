@@ -44,3 +44,14 @@ $(document).ready(function(){
     });
 });
 //  end script here for header slider
+
+
+// select date from header form
+
+$(document).ready(function(){
+    $('#datepicker').datepicker({
+        format: 'yyyy-mm-dd', // Change the format as needed
+        autoclose: true
+    });
+});
+
